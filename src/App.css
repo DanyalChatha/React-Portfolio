@@ -1,0 +1,292 @@
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.social {
+  display: flex;
+  gap: 1rem;
+}
+
+.social li {
+  list-style: none;
+}
+
+.social a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.social a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+
+/*Footer*/
+
+footer {
+  background-color: #1c1c1c;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+}
+
+footer li {
+  margin: 0 1rem;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+
+/* Projects */
+#projects {
+  font-size: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.project-container h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.project-container p {
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.project-container a {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.project-container a:hover {
+  background-color: #3e8e41;
+}
+
+/*Skills */
+.skills-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skill-progress {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 20px;
+  height: 10px;
+  margin-bottom: 10px;
+}
+
+.skill-percent {
+  height: 100%;
+  border-radius: 20px;
+  background-color: #0d6efd;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: center;
+  transition: width 0.5s ease-in-out;
+}
+
+/* About Section */
+.about-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.about-section h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.about-section div {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 40px;
+}
+
+.about-section h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.about-section h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-section p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.about-section .job-date,
+.about-section .education-date {
+  font-size: 16px;
+  color: #999;
+  margin-top: 10px;
+}
+
+.about-section img {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+
+/*Contact*/
+
+#contact {
+  background-color: #f9f9f9;
+  padding: 50px;
+}
+
+#contact h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#contact form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#contact form input,
+#contact form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+#contact form input:focus,
+#contact form textarea:focus {
+  outline: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+#contact form button {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#contact form button:hover {
+  background-color: #555;
+}
+
+/* Main */
+.welcome-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.welcome-text {
+  width: 50%;
+  text-align: center;
+}
+
+.image-container {
+  width: 40%;
+  margin-left: 10%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight:lighter;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
