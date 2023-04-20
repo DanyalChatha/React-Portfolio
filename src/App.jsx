@@ -71,7 +71,7 @@ function App() {
       <h2>My Name is <strong>Danyal Chatha</strong> and I am an aspiring <strong>Front-End Web Developer</strong>, Welcome to my site where I hope you will get to learn more of what I do!</h2>
     </div>
     <div class="image-container">
-      <img src='/images/dc.jpg' alt='Picture of Danyal Chatha'></img>
+      <img src='/dc.jpg' alt='Picture of Danyal Chatha'></img>
     </div>
   </main>
 
